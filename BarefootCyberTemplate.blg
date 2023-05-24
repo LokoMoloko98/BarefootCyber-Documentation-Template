@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: BarefootCyberTemplate.aux
+The style file: agsm.bst
+Database file #1: biblist.bib
+You've used 1 entry,
+            2896 wiz_defined-function locations,
+            640 strings with 4823 characters,
+and the built_in function-call counts, 1918 in all, are:
+= -- 337
+> -- 0
+< -- 0
++ -- 136
+- -- 0
+* -- 160
+:= -- 361
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 13
+empty$ -- 25
+format.name$ -- 0
+if$ -- 367
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 0
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 10
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 429
+swap$ -- 7
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 4
+width$ -- 0
+write$ -- 15
