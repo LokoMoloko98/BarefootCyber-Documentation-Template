@@ -11,7 +11,7 @@ sudo apt install texlive-latex-extra
 Next, clone this repository or download the Zip file and unzip the contents in a folder on your machine.
 
 ```bash
-git clone https://github.com/LokoMoloko98/BarefootCyber-DevOps-Implementation-Plan.git
+git clone https://github.com/LokoMoloko98/BarefootCyber-Documentation-Template.git
 ```
 
 Once that is done navigate to the directory where the repo has been cloned or unzipped and provide the execution permissions to the tex compilation script:
@@ -24,4 +24,4 @@ Now you can compile the pdf file to view the contents by executing the compilati
 ```bash
 ./compilation_script.sh 
 ```
-The document can be edited via the `DevOps_Implementation_Plan.tex` file and re-compiled by running the `compilation_script.sh` file.  
+The document can be edited via the `BarefootCyberTemplate.tex` file and re-compiled by running the `compilation_script.sh` file or your own Tex engine.

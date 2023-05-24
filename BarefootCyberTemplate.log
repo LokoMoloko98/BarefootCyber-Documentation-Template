@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.20)  24 MAY 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.20)  24 MAY 2023 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -219,22 +219,17 @@ Package pdftex.def Info: images/BFCLogoLBk.png  used on input line 37.
 \tf@toc=\write3
 \openout3 = `BarefootCyberTemplate.toc'.
 
- [1]
-Overfull \hbox (20.75688pt too wide) in paragraph at lines 73--74
-\OT1/cmr/m/n/12 BarefootCyber are look-ing into adopt-ing and im-ple-ment-ing the De-vel-op-ment/Operations
- []
-
-[2] (./BarefootCyberTemplate.bbl) [3] (./BarefootCyberTemplate.aux) ) 
+ [1] [2] (./BarefootCyberTemplate.bbl) [3] (./BarefootCyberTemplate.aux) ) 
 Here is how much of TeX's memory you used:
- 4657 strings out of 480247
- 74441 string characters out of 5896151
- 387745 words of memory out of 5000000
- 22545 multiletter control sequences out of 15000+600000
- 475309 words of font info for 49 fonts, out of 8000000 for 9000
+ 4658 strings out of 480247
+ 74458 string characters out of 5896151
+ 388765 words of memory out of 5000000
+ 22546 multiletter control sequences out of 15000+600000
+ 475656 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,11n,62p,645b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on BarefootCyberTemplate.pdf (4 pages, 61466 bytes).
+Output written on BarefootCyberTemplate.pdf (4 pages, 62442 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
