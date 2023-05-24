@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pdflatex SIEM_Deployment_Strategies.tex
-bibtex SIEM_Deployment_Strategies
-pdflatex SIEM_Deployment_Strategies.tex
-pdflatex SIEM_Deployment_Strategies.tex
+pdflatex BarefootCyberTemplate.tex
+bibtex BarefootCyberTemplate
+pdflatex BarefootCyberTemplate.tex
+pdflatex BarefootCyberTemplate.tex
