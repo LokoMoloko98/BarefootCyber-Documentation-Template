@@ -1,4 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Purpose of the document}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Overview of this document}{2}{}%
