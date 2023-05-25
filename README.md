@@ -1,4 +1,4 @@
-# BarefootCyber-DevOps-Implementation-Plan
+# BarefootCyber Documentation Template
 
 ## Steps to follow to view or edit this file on your machine
 
@@ -8,10 +8,10 @@ To view and/or edit this document on your machine, you will need install `texliv
 sudo apt install texlive-latex-extra
 ```
 
-Next, clone this repository or download the Zip file and unzip the contents in a folder on your machine.
+Next, clone this repository into a folder on your machine. Follow the steps in this document to do set uo AWS CodeCommit prerequisites to do this: https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-git-remote-codecommit.html. Once that prerequisites are set, you may use this command to clone the repository.
 
 ```bash
-git clone https://github.com/LokoMoloko98/BarefootCyber-Documentation-Template.git
+git clone codecommit::eu-west-1://BarefootCyber-Documentation-Template
 ```
 
 Once that is done navigate to the directory where the repo has been cloned or unzipped and provide the execution permissions to the tex compilation script:
