@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - sudo apt-get update
+      - sudo apt-get install python3
+      - sudo apt-get -y install python3-pip
+      - sudo pip3 install git-remote-codecommit
+      - git config --global user.email "moloko@barefootcyber.com"
+      - git config --global user.name "Moloko"
+      - git clone codecommit://BarefootCyber-Documentation-Template BarefootCyber-Documentation-Template-CodeCommit
+      - git clone https://github.com/LokoMoloko98/BarefootCyber-Documentation-Template.git
+  build:
+    commands:
+      - rsync -rv --exclude=.git BarefootCyber-Documentation-Template/. ./BarefootCyber-Documentation-Template-CodeCommit/
+      - rm -rf BarefootCyber-Documentation-Template
+      # Make necessary modifications to the codebase
+      - sudo apt-get install texlive-latex-extra -y --fix-missing
+      - chmod 701 ./BarefootCyber-Documentation-Template-CodeCommit/compilation_script.sh
+      - cd BarefootCyber-Documentation-Template-CodeCommit
+      - ./compilation_script.sh 
+      
+      # Commit the changes to CodeCommit
+      - git add .
+      - git commit -m "The transfer works"
+      - git push
